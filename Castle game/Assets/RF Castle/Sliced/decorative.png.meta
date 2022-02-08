@@ -19,10 +19,10 @@ TextureImporter:
     second: decorative_4
   - first:
       213: 21300010
-    second: decorative_5
+    second: flag
   - first:
       213: 21300012
-    second: decorative_6
+    second: flag r
   - first:
       213: 21300014
     second: decorative_7
@@ -70,10 +70,10 @@ TextureImporter:
     second: decorative_21
   - first:
       213: 21300044
-    second: decorative_22
+    second: flag lb
   - first:
       213: 21300046
-    second: decorative_23
+    second: flag br
   - first:
       213: 21300048
     second: decorative_24
@@ -223,7 +223,7 @@ TextureImporter:
     second: decorative_72
   - first:
       213: 21300146
-    second: decorative_73
+    second: torch
   - first:
       213: 21300148
     second: decorative_74
@@ -1180,13 +1180,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_5
+      name: flag
       rect:
         serializedVersion: 2
-        x: 112
-        y: 480
-        width: 16
-        height: 16
+        x: 116
+        y: 465
+        width: 25
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1201,13 +1201,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_6
+      name: flag r
       rect:
         serializedVersion: 2
-        x: 128
-        y: 480
-        width: 16
-        height: 16
+        x: 159
+        y: 477
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1537,13 +1537,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_22
+      name: flag lb
       rect:
         serializedVersion: 2
-        x: 112
-        y: 464
-        width: 16
-        height: 16
+        x: 151
+        y: 477
+        width: 10
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1558,13 +1558,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_23
+      name: flag br
       rect:
         serializedVersion: 2
-        x: 128
-        y: 464
-        width: 16
-        height: 16
+        x: 150
+        y: 463
+        width: 11
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2608,13 +2608,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_73
+      name: torch
       rect:
         serializedVersion: 2
         x: 432
-        y: 416
+        y: 400
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2737,8 +2737,8 @@ TextureImporter:
       name: decorative_79
       rect:
         serializedVersion: 2
-        x: 432
-        y: 400
+        x: 467
+        y: 427
         width: 16
         height: 16
       alignment: 0
