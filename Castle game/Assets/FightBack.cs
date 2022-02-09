@@ -1,4 +1,8 @@
-public class EnemyTerritory : MonoBehaviour
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FightBack : MonoBehaviour
 {
     public BoxCollider territory;
     GameObject player;
