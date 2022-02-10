@@ -13880,6 +13880,14 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4150994472462414, guid: 8bf00f738ad5d484fad95a99c54fa44c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150994472462414, guid: 8bf00f738ad5d484fad95a99c54fa44c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150994472462414, guid: 8bf00f738ad5d484fad95a99c54fa44c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -13938,6 +13946,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ecd225bcbc24d6baa596f51a5aa1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  territory: {fileID: 1243625587}
+  enemy: {fileID: 1490042762}
+--- !u!65 &1243625587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243625584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5347607, y: 1.2161798, z: 1}
+  m_Center: {x: -0.30151403, y: -0.40391493, z: 0}
 --- !u!1001 &1244553376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13952,6 +13975,14 @@ PrefabInstance:
     - target: {fileID: 4375894974027938, guid: 6e74e300d2792e94d97838e79394ec2b, type: 3}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375894974027938, guid: 6e74e300d2792e94d97838e79394ec2b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375894974027938, guid: 6e74e300d2792e94d97838e79394ec2b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4375894974027938, guid: 6e74e300d2792e94d97838e79394ec2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14012,6 +14043,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ecd225bcbc24d6baa596f51a5aa1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  territory: {fileID: 1244553379}
+  enemy: {fileID: 1490042762}
+--- !u!65 &1244553379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244553377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4969295, y: 1.2639939, z: 1}
+  m_Center: {x: -0.24846476, y: -0.33387452, z: 0}
 --- !u!1 &1250174006
 GameObject:
   m_ObjectHideFlags: 0
@@ -16323,6 +16369,14 @@ PrefabInstance:
     - target: {fileID: 4868515331449996, guid: 79639b84e20f0ea4694165c0d4554387, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868515331449996, guid: 79639b84e20f0ea4694165c0d4554387, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868515331449996, guid: 79639b84e20f0ea4694165c0d4554387, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4868515331449996, guid: 79639b84e20f0ea4694165c0d4554387, type: 3}
       propertyPath: m_LocalPosition.x
