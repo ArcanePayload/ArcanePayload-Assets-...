@@ -15,8 +15,12 @@ public class PlayerMovement : MonoBehaviour
     private float vertVelo;
 
 
-   void update()
+   void Update()
     {
         if(Input.GetKey(KeyCode.W))
+        {
+            //changes this
+            return;
+        }
     }
 }
