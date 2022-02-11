@@ -10,17 +10,39 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sr;
 
     //movement variables
-    private float hVelo;
+
     public float speed = 4;
-    private float vertVelo;
 
 
-   void Update()
+
+    void Update()
     {
-        if(Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
-            //changes this
-            return;
+
+            transform.position += Vector3.up * speed * Time.deltaTime;
+
+
+
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+
+            transform.position += Vector3.up * -speed * Time.deltaTime;
+
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+
+            transform.position += Vector3.right * -speed * Time.deltaTime;
+
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+
+            transform.position += Vector3.right * speed * Time.deltaTime;
+
         }
     }
-}
