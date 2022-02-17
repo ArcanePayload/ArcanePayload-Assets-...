@@ -2,8 +2,8 @@ Unity Editor version:    2020.3.17f1 (a4537701e4ab)
 Branch:                  2020.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 10.14.5 (Build 18F132)
-Darwin version:          18.6.0
+macOS version:           Version 10.14.6 (Build 18G87)
+Darwin version:          18.7.0
 Architecture:            x86_64
 Running under Rosetta:   NO
 Available memory:        8192 MB
@@ -18,107 +18,107 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/bellamyju251/Documents/GitHub/CastleGame/Castle game
+/Users/noblesja475/Documents/GitHub/CastleGame/Castle game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54643
-Successfully changed project path to: /Users/bellamyju251/Documents/GitHub/CastleGame/Castle game
-/Users/bellamyju251/Documents/GitHub/CastleGame/Castle game
+50291
+Successfully changed project path to: /Users/noblesja475/Documents/GitHub/CastleGame/Castle game
+/Users/noblesja475/Documents/GitHub/CastleGame/Castle game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/bellamyju251/Documents/GitHub/CastleGame/Castle game/Assets
+[Subsystems] Discovering subsystems at path /Users/noblesja475/Documents/GitHub/CastleGame/Castle game/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-10 09:00:32.827 Unity[32888:809513] iMac preferred device: AMD Radeon Pro 570 (high power)
-2022-02-10 09:00:32.827 Unity[32888:809513] Metal devices available: 1
-2022-02-10 09:00:32.827 Unity[32888:809513] 0: AMD Radeon Pro 570 (high power)
-2022-02-10 09:00:32.828 Unity[32888:809513] Using device AMD Radeon Pro 570 (high power)
+2022-02-15 09:23:33.377 Unity[10217:241649] iMac preferred device: AMD Radeon Pro 570 (high power)
+2022-02-15 09:23:33.377 Unity[10217:241649] Metal devices available: 1
+2022-02-15 09:23:33.377 Unity[10217:241649] 0: AMD Radeon Pro 570 (high power)
+2022-02-15 09:23:33.378 Unity[10217:241649] Using device AMD Radeon Pro 570 (high power)
 Initializing Metal device caps: AMD Radeon Pro 570
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56217
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.066061 seconds.
+Registered in 0.000459 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.838 seconds
+- Completed reload, in  1.647 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1839ms)
+	ReloadAssembly (1647ms)
 		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (31ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014651 seconds.
+Registered in 0.001553 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.593 seconds
+- Completed reload, in  1.385 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1595ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (1386ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1334ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1144ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (432ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (522ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (467ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001618 seconds.
+Validating Project structure ... 0.001606 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001886 seconds.
+Upgrading shader files ...0.001943 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,90 +128,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2094 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.2 MB.
-System memory in use after: 194.3 MB.
-
-Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2570.
-Total: 4.218524 ms (FindLiveObjects: 0.228571 ms CreateObjectMapping: 0.087235 ms MarkObjects: 3.429121 ms  DeleteObjects: 0.472603 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/playermovement.cs
-  artifactKey: Guid(8c330c28a4dff420cb0b09a2e506d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/playermovement.cs using Guid(8c330c28a4dff420cb0b09a2e506d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75beb2dbad2a91398b7d98cf5123ac63') in 0.221920 seconds 
-  Import took 0.225255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.788346 seconds.
-  path: Assets/PlayerMovement.cs
-  artifactKey: Guid(8c330c28a4dff420cb0b09a2e506d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMovement.cs using Guid(8c330c28a4dff420cb0b09a2e506d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed01c7917a26e0f8ea860aceeb9857f') in 0.000992 seconds 
-  Import took 0.004670 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001518 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1368ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (404ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.8 MB.
-System memory in use after: 193.9 MB.
+Unloading 2095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.3 MB.
+System memory in use after: 194.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2574.
-Total: 2.922983 ms (FindLiveObjects: 0.194693 ms CreateObjectMapping: 0.071034 ms MarkObjects: 2.642000 ms  DeleteObjects: 0.014528 ms)
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 3.577764 ms (FindLiveObjects: 0.227633 ms CreateObjectMapping: 0.086665 ms MarkObjects: 2.766495 ms  DeleteObjects: 0.495922 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -225,745 +153,256 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 998.291770 seconds.
-  path: Assets/PlayerMovement.cs
-  artifactKey: Guid(8c330c28a4dff420cb0b09a2e506d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMovement.cs using Guid(8c330c28a4dff420cb0b09a2e506d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10970f3bb85a79b65df998a9796170fd') in 0.011385 seconds 
-  Import took 0.015801 seconds .
+  path: Assets/RF Castle/Animated/lightA03.png
+  artifactKey: Guid(b1a46a9717089a54caa3aa13184e25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA03.png using Guid(b1a46a9717089a54caa3aa13184e25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b880439ec07c215cc4c3fa4bb14d0329') in 0.282514 seconds 
+  Import took 0.299816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.489027 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelBlue_00.png
-  artifactKey: Guid(4fb9f67910e50d44ca9c91a218593b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelBlue_00.png using Guid(4fb9f67910e50d44ca9c91a218593b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41a39ffb06a144b62b37bec245a404c') in 1.259120 seconds 
-  Import took 1.263104 seconds .
+  Time since last request: 0.001913 seconds.
+  path: Assets/RF Castle/Scenes
+  artifactKey: Guid(c914ca22964cb014abddbd5a9ec79736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Scenes using Guid(c914ca22964cb014abddbd5a9ec79736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d23014d08ec19d278555dbc8e9e226c') in 0.000758 seconds 
+  Import took 0.013272 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002010 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelPurple_00.png
-  artifactKey: Guid(5bbde09ad7dbef143a4227500767d69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelPurple_00.png using Guid(5bbde09ad7dbef143a4227500767d69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf604cbb775ff0502e6bc315f535ca8') in 0.024441 seconds 
-  Import took 0.027797 seconds .
+  Time since last request: 0.000801 seconds.
+  path: Assets/RF Castle/Animated/lightA02.png
+  artifactKey: Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA02.png using Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84298f4c13dec547c529cdd3fbbee36') in 0.017742 seconds 
+  Import took 0.031830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestBlue_00.png
-  artifactKey: Guid(998da6a559a176f408c1455ca2e250ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestBlue_00.png using Guid(998da6a559a176f408c1455ca2e250ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e94b0d56964b79c3571d4b8d5fd8e8b') in 0.035226 seconds 
-  Import took 0.038621 seconds .
+  Time since last request: 0.000372 seconds.
+  path: Assets/RF Castle/Animated/lightA01.png
+  artifactKey: Guid(acd060104eda63341b93267260f10b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA01.png using Guid(acd060104eda63341b93267260f10b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8586720740064b500daa79403e2db2') in 0.020245 seconds 
+  Import took 0.029885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGreen_00.png
-  artifactKey: Guid(df20f90b61468cf46ac30fb4d258bdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGreen_00.png using Guid(df20f90b61468cf46ac30fb4d258bdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a66ad8a137102be55774663cbc35906') in 0.021354 seconds 
-  Import took 0.025382 seconds .
+  Time since last request: 5.420982 seconds.
+  path: Assets/Samples/2D Animation/5.0.7
+  artifactKey: Guid(ca2a78b894c5342889d38f9af1008417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/2D Animation/5.0.7 using Guid(ca2a78b894c5342889d38f9af1008417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451c6acb6f5ebb991b1ff125d4bcc2e6') in 0.000969 seconds 
+  Import took 0.019857 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png
-  artifactKey: Guid(5775109fdaceec14bacc8fa0025883a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png using Guid(5775109fdaceec14bacc8fa0025883a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea99cc7a780d5ad4679dd376996a9ea') in 0.022006 seconds 
-  Import took 0.026385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png
-  artifactKey: Guid(b7169c21225b1f04ab520fd934e0cd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png using Guid(b7169c21225b1f04ab520fd934e0cd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f740aa265a069a495eb2194935c1d3') in 0.011843 seconds 
-  Import took 0.015096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartPurple_00.png
-  artifactKey: Guid(accc512d8b38f394aa4cf98b48739728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartPurple_00.png using Guid(accc512d8b38f394aa4cf98b48739728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6c56f59030d0045d315f626b576e57') in 0.021647 seconds 
-  Import took 0.026092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000623 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_02.png
-  artifactKey: Guid(496254eaa192f7946a180ced39f4ffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_02.png using Guid(496254eaa192f7946a180ced39f4ffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8926dab0e46b010dc0ee59b208fca7b') in 0.019964 seconds 
-  Import took 0.024512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000795 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png
-  artifactKey: Guid(40ec6c6ab3fa68a478a5092ae1598716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png using Guid(40ec6c6ab3fa68a478a5092ae1598716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c7a6882b3109a1d3ff0767a687e650') in 0.020684 seconds 
-  Import took 0.024595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_01.png
-  artifactKey: Guid(e3d1eaf805bf5fd49bc8281bac4848b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_01.png using Guid(e3d1eaf805bf5fd49bc8281bac4848b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d08b45df545a5b5e756926728fa1b2e') in 0.028343 seconds 
-  Import took 0.032033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_02.png
-  artifactKey: Guid(151074cac6b290e418b03b20c5e2c6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_02.png using Guid(151074cac6b290e418b03b20c5e2c6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a83b706634cb026e907aa20a470689') in 0.018055 seconds 
-  Import took 0.022444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_00.png
-  artifactKey: Guid(f0c791a61d836134ebacb8eed2c6c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_00.png using Guid(f0c791a61d836134ebacb8eed2c6c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcc6650c95d4c7f38e7c743e9fa56bc') in 0.018650 seconds 
-  Import took 0.022700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_01.png
-  artifactKey: Guid(b11b9cfda6a1c3e40bbfc86f6679be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_01.png using Guid(b11b9cfda6a1c3e40bbfc86f6679be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b763596190e80c8e347efb3a31e2742b') in 0.020718 seconds 
-  Import took 0.025070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartRed_00.png
-  artifactKey: Guid(15cc575b0d9a36846838578bfb080819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartRed_00.png using Guid(15cc575b0d9a36846838578bfb080819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a9743fe50c0d71af3a2922de0a773b') in 0.012131 seconds 
-  Import took 0.016649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_01.png
-  artifactKey: Guid(aea25ed5f86cab246ac2abb823cb999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_01.png using Guid(aea25ed5f86cab246ac2abb823cb999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eda2d25e7ef11c7ae6940e482e1b687') in 0.014613 seconds 
-  Import took 0.018701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_01.png
-  artifactKey: Guid(24fd49e15c47ec54ab455b14c2430b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_01.png using Guid(24fd49e15c47ec54ab455b14c2430b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae40b3289a0fb8750858a8967a32381') in 0.012543 seconds 
-  Import took 0.016557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_01.png
-  artifactKey: Guid(891b417b9d32c9244a95ade4212d6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_01.png using Guid(891b417b9d32c9244a95ade4212d6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc29dee564471404a54f2f5ad418b6d9') in 0.015297 seconds 
-  Import took 0.018775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png
-  artifactKey: Guid(e0d237a6d693d244ab936f97209438d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png using Guid(e0d237a6d693d244ab936f97209438d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b2dd7fded63033f78360a872e0ca33') in 0.011929 seconds 
-  Import took 0.016251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_01.png
-  artifactKey: Guid(896b834b8d11cca4b8293dd8e75d2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_01.png using Guid(896b834b8d11cca4b8293dd8e75d2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafe66da0a4463a787d429fdf358083d') in 0.072173 seconds 
-  Import took 0.075915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_00.png
-  artifactKey: Guid(696f52c7965f17746a01941fdbb0b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_00.png using Guid(696f52c7965f17746a01941fdbb0b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c4da45ecdf56b9d89657d702107025') in 0.014537 seconds 
-  Import took 0.018513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_00.png
-  artifactKey: Guid(37636ce6276d5fb41972b2da4df42cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_00.png using Guid(37636ce6276d5fb41972b2da4df42cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08e515cd04a6ac5465a0f70997f476b') in 0.020366 seconds 
-  Import took 0.025309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png
-  artifactKey: Guid(642c9aabc6c34a44fb748967f149019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png using Guid(642c9aabc6c34a44fb748967f149019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc31b95ad5b95fb4d71aa432298ff8e7') in 0.013305 seconds 
-  Import took 0.017445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000923 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_02.png
-  artifactKey: Guid(6edd092ef6bfd8445b7c4fc81d9c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_02.png using Guid(6edd092ef6bfd8445b7c4fc81d9c240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fec9c3d6ffc10e706a0d6b532422a7') in 0.016756 seconds 
-  Import took 0.021206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000692 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGold_00.png
-  artifactKey: Guid(0d3e542041db03f4bb7384d4b09364c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGold_00.png using Guid(0d3e542041db03f4bb7384d4b09364c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910636387e030626f1aa60585343ca38') in 0.014405 seconds 
-  Import took 0.018604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001531 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGreen_00.png
-  artifactKey: Guid(e250d79a240c2af489323def30452048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGreen_00.png using Guid(e250d79a240c2af489323def30452048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80630fdd8b6510ec2795f6bb08affea5') in 0.022365 seconds 
-  Import took 0.026429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000972 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartBlue_00.png
-  artifactKey: Guid(11497421820b4c44f8fa0bd0cc98f1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartBlue_00.png using Guid(11497421820b4c44f8fa0bd0cc98f1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281c84dca9e260198e92f1bff39d27ac') in 0.024926 seconds 
-  Import took 0.029524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGold_00.png
-  artifactKey: Guid(cfb9534e88f2cca4f998d9620eccbdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGold_00.png using Guid(cfb9534e88f2cca4f998d9620eccbdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446a331b3024a8dead28f639a400fc48') in 0.019366 seconds 
-  Import took 0.023195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_01.png
-  artifactKey: Guid(1c03cba2df0c2f5489583ca1ad01cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_01.png using Guid(1c03cba2df0c2f5489583ca1ad01cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274bf8f9a6b9daeeab5bfe69e0da8830') in 0.016963 seconds 
-  Import took 0.020864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png
-  artifactKey: Guid(a8b2dd49f82df4243b372efd8a053dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png using Guid(a8b2dd49f82df4243b372efd8a053dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eeb68b075f6072cb41fd778129368d') in 0.023676 seconds 
-  Import took 0.027597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_00.png
-  artifactKey: Guid(d19ccb8e619c9324487328c4f83f7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_00.png using Guid(d19ccb8e619c9324487328c4f83f7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4d887a71c98ecd983a1890f140968f') in 0.022055 seconds 
-  Import took 0.025472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_02.png
-  artifactKey: Guid(ea665887fc114a1419626aa55d7eb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_02.png using Guid(ea665887fc114a1419626aa55d7eb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9974a2daeb180b7199a4fd9ed3e51541') in 0.019811 seconds 
-  Import took 0.022928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_01.png
-  artifactKey: Guid(e055b4cdff7e1324495f5cba57fbcb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_01.png using Guid(e055b4cdff7e1324495f5cba57fbcb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9439bae4941c364c17f48c51b402f34') in 0.021386 seconds 
-  Import took 0.025437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png
-  artifactKey: Guid(2f605f8487435b64780f2f663cc01c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png using Guid(2f605f8487435b64780f2f663cc01c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503d04fd0a83828cda8ebf246d12223f') in 0.017472 seconds 
-  Import took 0.021621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_01.png
-  artifactKey: Guid(94113daefd864e64595a2b73b933e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_01.png using Guid(94113daefd864e64595a2b73b933e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ea94ea3b5963b093a470452632a8e3') in 0.020259 seconds 
-  Import took 0.025005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_02.png
-  artifactKey: Guid(9d4876b2fb3f71a4096454de5f85a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_02.png using Guid(9d4876b2fb3f71a4096454de5f85a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346eabfe16130cd0f39cddec4046dc04') in 0.023320 seconds 
-  Import took 0.027615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_02.png
-  artifactKey: Guid(484d636c982787d449589fb4a567d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_02.png using Guid(484d636c982787d449589fb4a567d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db13cb85e8d71b79daf633b82e95b570') in 0.012171 seconds 
-  Import took 0.015897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png
-  artifactKey: Guid(c8bdd335029a8294689a5fb138a9cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png using Guid(c8bdd335029a8294689a5fb138a9cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2937aed43a413129f57ef90b9ffb728e') in 0.013402 seconds 
-  Import took 0.017561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_01.png
-  artifactKey: Guid(f041a6e4a68d2ac43a7f7b81cbc324a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_01.png using Guid(f041a6e4a68d2ac43a7f7b81cbc324a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0a8b868cd1017ac86587fc0818d242') in 0.014794 seconds 
-  Import took 0.018895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_02.png
-  artifactKey: Guid(f71567b37e8375c4ea0b7a3094fef493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_02.png using Guid(f71567b37e8375c4ea0b7a3094fef493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e65389a54cd7ca5d5bb1e4582801ddd') in 0.016294 seconds 
-  Import took 0.020142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_00.png
-  artifactKey: Guid(dc98641484cb3724f9161856d6b33124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_00.png using Guid(dc98641484cb3724f9161856d6b33124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a9ccf53e6fddb8ee2266cb8952a773') in 0.012933 seconds 
-  Import took 0.017218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png
-  artifactKey: Guid(c942500109f791240adb75c331ecbe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png using Guid(c942500109f791240adb75c331ecbe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701f327e862ce85cb5f7f020c95bbdbe') in 0.026050 seconds 
-  Import took 0.030472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002172 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png
-  artifactKey: Guid(16a19be914363964790a17ef8b0bb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png using Guid(16a19be914363964790a17ef8b0bb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc6116eff4a8124418cba5a966f84d3') in 0.026467 seconds 
-  Import took 0.030409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001014 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinBlue_00.png
-  artifactKey: Guid(4e70cd05a0e304940aeeaa167e472f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinBlue_00.png using Guid(4e70cd05a0e304940aeeaa167e472f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66d66b23945a43223453289b7727858') in 0.022034 seconds 
-  Import took 0.026639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png
-  artifactKey: Guid(b59a71db9878ce648a8338095027dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png using Guid(b59a71db9878ce648a8338095027dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a5773e2c1b352e9e83ba8393250e67') in 0.018815 seconds 
-  Import took 0.022557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelRed_00.png
-  artifactKey: Guid(15fd679098c39bd4890d7e0cd1d49d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelRed_00.png using Guid(15fd679098c39bd4890d7e0cd1d49d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db84f505cca54b2b0297445b9132adc') in 0.015758 seconds 
-  Import took 0.019832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000688 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestRed_00.png
-  artifactKey: Guid(50fc0b00f1cca6d4198745eee8695886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestRed_00.png using Guid(50fc0b00f1cca6d4198745eee8695886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0275603f7e5b3279391c343ada48096f') in 0.019976 seconds 
-  Import took 0.024206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png
-  artifactKey: Guid(d9c66f7849c970e4c8d3447141d6d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png using Guid(d9c66f7849c970e4c8d3447141d6d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df1572df801728ee5de613b63416c8c') in 0.013578 seconds 
-  Import took 0.017319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001091 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_00.png
-  artifactKey: Guid(6d66159f201fc9d4ab6edf9f5ccc0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_00.png using Guid(6d66159f201fc9d4ab6edf9f5ccc0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1eccc86efd37ab8b2bc174a06c1e78') in 0.023376 seconds 
-  Import took 0.027693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_02.png
-  artifactKey: Guid(a9d02d79a9caaca4ab31458e413042ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_02.png using Guid(a9d02d79a9caaca4ab31458e413042ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28b3c57f0a02993c3c7d5b274e04fcb') in 0.013128 seconds 
-  Import took 0.016816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGreen_00.png
-  artifactKey: Guid(8efcec33cbef00a4891b69af35df1b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGreen_00.png using Guid(8efcec33cbef00a4891b69af35df1b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0fac355dc65e390b73bf9a1eee7cbe') in 0.012101 seconds 
-  Import took 0.015919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_00.png
-  artifactKey: Guid(85fe961d8b8fb094584962eecb48d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_00.png using Guid(85fe961d8b8fb094584962eecb48d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a56032fd027ce6e93da26c1eec25cbb') in 0.014195 seconds 
-  Import took 0.018315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_01.png
-  artifactKey: Guid(dd86867da9990584a9dc706d08a29150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_01.png using Guid(dd86867da9990584a9dc706d08a29150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee7dd5ac71325a570d7a5ed6918bebf') in 0.013586 seconds 
-  Import took 0.017822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png
-  artifactKey: Guid(bfe2172ea6d8548459c72a978878c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png using Guid(bfe2172ea6d8548459c72a978878c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c54b40d4c3347aa966a6bffd1c99de') in 0.017533 seconds 
-  Import took 0.020902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinRed_00.png
-  artifactKey: Guid(436d8a990a1a0ad4fa3e3239c39a361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinRed_00.png using Guid(436d8a990a1a0ad4fa3e3239c39a361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba047361ce3d80fed26eafebb647349') in 0.017732 seconds 
-  Import took 0.021351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_02.png
-  artifactKey: Guid(f6c8338ac999bc94e9a7d79c7262d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_02.png using Guid(f6c8338ac999bc94e9a7d79c7262d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e557cd653c4f15309440fd562fb15a87') in 0.020455 seconds 
-  Import took 0.024087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestPurple_00.png
-  artifactKey: Guid(059feff74a0d4724a94740b0e9951ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestPurple_00.png using Guid(059feff74a0d4724a94740b0e9951ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8670b6799518d15efd52adf16ae2e7bb') in 0.018284 seconds 
-  Import took 0.022028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_01.png
-  artifactKey: Guid(c01f7a293883d3a408c2a84b25f48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_01.png using Guid(c01f7a293883d3a408c2a84b25f48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd975aaf664843d66539c3864b69dade') in 0.014397 seconds 
-  Import took 0.018520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_01.png
-  artifactKey: Guid(466754cf24a0dcf46921f74c450a2cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_01.png using Guid(466754cf24a0dcf46921f74c450a2cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324ec9df6cf80d9d70de8ba89af0baee') in 0.025311 seconds 
-  Import took 0.028869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.043405 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_02.png
-  artifactKey: Guid(3167e107b47c92e45a9374f88953048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_02.png using Guid(3167e107b47c92e45a9374f88953048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e9084a76a52421f1757bd06221e491') in 0.041552 seconds 
-  Import took 0.045524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png
-  artifactKey: Guid(94d06af37f640cb46abbec58f544e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png using Guid(94d06af37f640cb46abbec58f544e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d89d376500ac718fc30bc7512e271c9') in 0.025681 seconds 
-  Import took 0.029021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_01.png
-  artifactKey: Guid(d025807e31d980c4db269d7f9f094bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_01.png using Guid(d025807e31d980c4db269d7f9f094bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96826e4f96c1e569e1fcbbc15897d486') in 0.022558 seconds 
-  Import took 0.026289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_00.png
-  artifactKey: Guid(48427561134115740b6f6e2caf015996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_00.png using Guid(48427561134115740b6f6e2caf015996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537688921f1d4a688a5016de335d050e') in 0.020893 seconds 
-  Import took 0.024535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_00.png
-  artifactKey: Guid(a38de2af0ebcd1d438398af9491043ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_00.png using Guid(a38de2af0ebcd1d438398af9491043ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dd565f302c2fa2e9854c2cf59156b8') in 0.016951 seconds 
-  Import took 0.021111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_01.png
-  artifactKey: Guid(384681ec1344ebe478ee0adbf07f605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_01.png using Guid(384681ec1344ebe478ee0adbf07f605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928fa96aa8ad7404a14061517af99852') in 0.091617 seconds 
-  Import took 0.094936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_02.png
-  artifactKey: Guid(3dfa7f6656ff88646a1ee3ff95805426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_02.png using Guid(3dfa7f6656ff88646a1ee3ff95805426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067b33106b71f799a6e60b35e608ae32') in 0.020062 seconds 
-  Import took 0.023267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_02.png
-  artifactKey: Guid(952e93e0efc587044b70a2d484f7ace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_02.png using Guid(952e93e0efc587044b70a2d484f7ace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd44a653555afe9017aa0169045af03') in 0.012980 seconds 
-  Import took 0.017199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_00.png
-  artifactKey: Guid(85345332a6c9ae74c820aad6486f1b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_00.png using Guid(85345332a6c9ae74c820aad6486f1b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3c946fc4555ceb69eb01668d9ce5ff') in 0.012591 seconds 
-  Import took 0.016502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_02.png
-  artifactKey: Guid(1faab0627e69c1747aba494c3637e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_02.png using Guid(1faab0627e69c1747aba494c3637e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe25c98b3983ee9fbe6226fdf3d3972b') in 0.019769 seconds 
-  Import took 0.023333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_01.png
-  artifactKey: Guid(1db171dfa076c734ea11134720a7609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_01.png using Guid(1db171dfa076c734ea11134720a7609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494ba45923bf1f9be4356522c9fc1027') in 0.013895 seconds 
-  Import took 0.017662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_01.png
-  artifactKey: Guid(d2ec23b8bd73b0e43a048ed910855eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_01.png using Guid(d2ec23b8bd73b0e43a048ed910855eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3b36eb463118a05da11877229196fe') in 0.017492 seconds 
-  Import took 0.021402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_02.png
-  artifactKey: Guid(955f66ab17993b74eae3a0c8a446d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_02.png using Guid(955f66ab17993b74eae3a0c8a446d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b19fe05c3f20423df839432ede44170') in 0.013188 seconds 
-  Import took 0.017169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.733511 seconds.
+  Time since last request: 1.119901 seconds.
   path: Assets/Samples/2D Animation/5.0.7/Samples
   artifactKey: Guid(e1f3784fc78e044ea80995f82fc2f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/2D Animation/5.0.7/Samples using Guid(e1f3784fc78e044ea80995f82fc2f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f73f5c47d87fecb4de36d6daac4440') in 0.004733 seconds 
-  Import took 0.008142 seconds .
+Start importing Assets/Samples/2D Animation/5.0.7/Samples using Guid(e1f3784fc78e044ea80995f82fc2f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f73f5c47d87fecb4de36d6daac4440') in 0.004694 seconds 
+  Import took 0.008146 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.970276 seconds.
-  path: Assets/Samples/2D Animation/5.0.7/Samples/3 Multiple Skinned Sprites
-  artifactKey: Guid(63ba0eef43d703d43b3840a58f8af87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/2D Animation/5.0.7/Samples/3 Multiple Skinned Sprites using Guid(63ba0eef43d703d43b3840a58f8af87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a9128071a4cf07e143fd18b384eafb') in 0.004664 seconds 
-  Import took 0.008342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.885465 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/textures
-  artifactKey: Guid(3a8ba39c16e40ac4db07cbd5b4456062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/textures using Guid(3a8ba39c16e40ac4db07cbd5b4456062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23edad7101eac7952fe87d06e6cd35') in 0.004811 seconds 
-  Import took 0.008649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073587 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/textures/Castle_Background.jpg
-  artifactKey: Guid(527af9115dcefbf4ebc13e9bc36447a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/textures/Castle_Background.jpg using Guid(527af9115dcefbf4ebc13e9bc36447a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57feeb68d403c00336716946dba052a') in 0.392300 seconds 
-  Import took 0.395649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002489 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/textures/PackCastle01.png
-  artifactKey: Guid(f5f1c19ce87450f4b97f8b363746558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/textures/PackCastle01.png using Guid(f5f1c19ce87450f4b97f8b363746558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8041af34f9cd71d67a837aa537a44f82') in 0.350315 seconds 
-  Import took 0.353700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.730587 seconds.
+  Time since last request: 4.662111 seconds.
   path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_00.prefab
   artifactKey: Guid(d0ac9a80fd1cbcd4b97a5e778c0fd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_00.prefab using Guid(d0ac9a80fd1cbcd4b97a5e778c0fd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e91d520a722bcb86a717b4ed426b17') in 0.257426 seconds 
-  Import took 0.260682 seconds .
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_00.prefab using Guid(d0ac9a80fd1cbcd4b97a5e778c0fd601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e91d520a722bcb86a717b4ed426b17') in 0.320415 seconds 
+  Import took 0.337673 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001878 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_06.prefab
-  artifactKey: Guid(7107c018d7a73af459cb58c37fd6972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_06.prefab using Guid(7107c018d7a73af459cb58c37fd6972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb1dff5831378e2f2a19eb1b0ab3733') in 0.180414 seconds 
-  Import took 0.183597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_14.prefab
-  artifactKey: Guid(8bf00f738ad5d484fad95a99c54fa44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_14.prefab using Guid(8bf00f738ad5d484fad95a99c54fa44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da1e748cd5aef5f650d5c833cf7690') in 0.016443 seconds 
-  Import took 0.020326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_09.prefab
-  artifactKey: Guid(08ac15b230659ae4b89a9a4f74fcdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_09.prefab using Guid(08ac15b230659ae4b89a9a4f74fcdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1356061a0847a2e68c0dc5e70972c5cc') in 0.014690 seconds 
-  Import took 0.018538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_08.prefab
-  artifactKey: Guid(6e74e300d2792e94d97838e79394ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_08.prefab using Guid(6e74e300d2792e94d97838e79394ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e5c0bee3486e07ae86ac6dc21ab28a') in 0.016400 seconds 
-  Import took 0.020722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_13.prefab
-  artifactKey: Guid(35b0947ad8031c044a8d63699d7fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_13.prefab using Guid(35b0947ad8031c044a8d63699d7fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98730bb4e075e916234ea0aa95b3414d') in 0.015181 seconds 
-  Import took 0.019244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_01.prefab
-  artifactKey: Guid(79639b84e20f0ea4694165c0d4554387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_01.prefab using Guid(79639b84e20f0ea4694165c0d4554387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7509544ec54dc7813dd53cae24667460') in 0.015157 seconds 
-  Import took 0.019576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_05.prefab
-  artifactKey: Guid(89cb7e4da7cce4c40bdd4f4531ca6ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_05.prefab using Guid(89cb7e4da7cce4c40bdd4f4531ca6ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082e83506bd7e3a118a42c9541ffb7db') in 0.014602 seconds 
-  Import took 0.018929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
+  Time since last request: 0.001578 seconds.
   path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_03.prefab
   artifactKey: Guid(646797e349ba9a849b35f2a8b20fa3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_03.prefab using Guid(646797e349ba9a849b35f2a8b20fa3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126aaadbc200611516ee3ee0cfeabe28') in 0.017665 seconds 
-  Import took 0.021857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000557 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_07.prefab
-  artifactKey: Guid(8304b1d0cddb3c94d9f12525f42da107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_07.prefab using Guid(8304b1d0cddb3c94d9f12525f42da107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048f4da0ff0f56eb8edac94b35e2e7c5') in 0.017119 seconds 
-  Import took 0.021206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_12.prefab
-  artifactKey: Guid(e0627ac7941b511479d40b02ceb672f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_12.prefab using Guid(e0627ac7941b511479d40b02ceb672f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6976a47c3ef4d5387f73c6ce40c9a9') in 0.014786 seconds 
-  Import took 0.018584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_02.prefab
-  artifactKey: Guid(ff5440183347b26498850dddeb186ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_02.prefab using Guid(ff5440183347b26498850dddeb186ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838b1e79e1bceae96a4843ae8479a979') in 0.016228 seconds 
-  Import took 0.019675 seconds .
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_03.prefab using Guid(646797e349ba9a849b35f2a8b20fa3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126aaadbc200611516ee3ee0cfeabe28') in 0.051734 seconds 
+  Import took 0.065834 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000354 seconds.
-  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_04.prefab
-  artifactKey: Guid(ed3c152aba85638429bf8b50e4c24c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_04.prefab using Guid(ed3c152aba85638429bf8b50e4c24c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c83a1501b2c07e49d6a62398c067cf1') in 0.015420 seconds 
-  Import took 0.019318 seconds .
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_06.prefab
+  artifactKey: Guid(7107c018d7a73af459cb58c37fd6972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_06.prefab using Guid(7107c018d7a73af459cb58c37fd6972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb1dff5831378e2f2a19eb1b0ab3733') in 0.016189 seconds 
+  Import took 0.037204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_07.prefab
+  artifactKey: Guid(8304b1d0cddb3c94d9f12525f42da107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_07.prefab using Guid(8304b1d0cddb3c94d9f12525f42da107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048f4da0ff0f56eb8edac94b35e2e7c5') in 0.011994 seconds 
+  Import took 0.016011 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000465 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_12.prefab
+  artifactKey: Guid(e0627ac7941b511479d40b02ceb672f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_12.prefab using Guid(e0627ac7941b511479d40b02ceb672f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6976a47c3ef4d5387f73c6ce40c9a9') in 0.022275 seconds 
+  Import took 0.028071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_02.prefab
+  artifactKey: Guid(ff5440183347b26498850dddeb186ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_02.prefab using Guid(ff5440183347b26498850dddeb186ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838b1e79e1bceae96a4843ae8479a979') in 0.011818 seconds 
+  Import took 0.020790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_14.prefab
+  artifactKey: Guid(8bf00f738ad5d484fad95a99c54fa44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_14.prefab using Guid(8bf00f738ad5d484fad95a99c54fa44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da1e748cd5aef5f650d5c833cf7690') in 0.011360 seconds 
+  Import took 0.017362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_09.prefab
+  artifactKey: Guid(08ac15b230659ae4b89a9a4f74fcdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_09.prefab using Guid(08ac15b230659ae4b89a9a4f74fcdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1356061a0847a2e68c0dc5e70972c5cc') in 0.011804 seconds 
+  Import took 0.016713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_04.prefab
+  artifactKey: Guid(ed3c152aba85638429bf8b50e4c24c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_04.prefab using Guid(ed3c152aba85638429bf8b50e4c24c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c83a1501b2c07e49d6a62398c067cf1') in 0.013294 seconds 
+  Import took 0.018155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
   path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_10.prefab
   artifactKey: Guid(4d6f76f782c1d8249a368f16fdec5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_10.prefab using Guid(4d6f76f782c1d8249a368f16fdec5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedd10baeb8cea49838f3cb774c735ae') in 0.015588 seconds 
-  Import took 0.019669 seconds .
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_10.prefab using Guid(4d6f76f782c1d8249a368f16fdec5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedd10baeb8cea49838f3cb774c735ae') in 0.014004 seconds 
+  Import took 0.019085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000543 seconds.
+  Time since last request: 0.000363 seconds.
   path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_15.prefab
   artifactKey: Guid(a43414e7a355b304db774a169cfa04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_15.prefab using Guid(a43414e7a355b304db774a169cfa04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7400662a41d188e761f56d7c69eaaf94') in 0.013558 seconds 
-  Import took 0.018062 seconds .
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_15.prefab using Guid(a43414e7a355b304db774a169cfa04bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7400662a41d188e761f56d7c69eaaf94') in 0.015139 seconds 
+  Import took 0.019762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_08.prefab
+  artifactKey: Guid(6e74e300d2792e94d97838e79394ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_08.prefab using Guid(6e74e300d2792e94d97838e79394ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e5c0bee3486e07ae86ac6dc21ab28a') in 0.011615 seconds 
+  Import took 0.016727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
   path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_11.prefab
   artifactKey: Guid(b01f945f2a3e0df42b7a82d7e1506d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_11.prefab using Guid(b01f945f2a3e0df42b7a82d7e1506d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76e0944369c7ca50524291ec3cf3444') in 0.015037 seconds 
-  Import took 0.019215 seconds .
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_11.prefab using Guid(b01f945f2a3e0df42b7a82d7e1506d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76e0944369c7ca50524291ec3cf3444') in 0.013225 seconds 
+  Import took 0.029713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_13.prefab
+  artifactKey: Guid(35b0947ad8031c044a8d63699d7fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_13.prefab using Guid(35b0947ad8031c044a8d63699d7fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98730bb4e075e916234ea0aa95b3414d') in 0.011431 seconds 
+  Import took 0.016914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_01.prefab
+  artifactKey: Guid(79639b84e20f0ea4694165c0d4554387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_01.prefab using Guid(79639b84e20f0ea4694165c0d4554387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7509544ec54dc7813dd53cae24667460') in 0.012330 seconds 
+  Import took 0.017456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_05.prefab
+  artifactKey: Guid(89cb7e4da7cce4c40bdd4f4531ca6ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/Prefabs/Chara_05.prefab using Guid(89cb7e4da7cce4c40bdd4f4531ca6ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082e83506bd7e3a118a42c9541ffb7db') in 0.011189 seconds 
+  Import took 0.016269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.681272 seconds.
+  path: Assets/Tasty_Characters - Castle Pack/Assets/textures/PackCastle01.png
+  artifactKey: Guid(f5f1c19ce87450f4b97f8b363746558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Castle Pack/Assets/textures/PackCastle01.png using Guid(f5f1c19ce87450f4b97f8b363746558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8041af34f9cd71d67a837aa537a44f82') in 0.323369 seconds 
+  Import took 0.328691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.634714 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519ad1bf8fe5f847ba8bc5d602dfca65') in 0.298229 seconds 
+  Import took 0.310500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.205750 seconds.
+  path: Packages/com.unity.2d.common/package.json
+  artifactKey: Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/package.json using Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdb1d9f21cd3ec447b7f1a49f5c4f7c') in 0.010776 seconds 
+  Import took 0.015064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.405010 seconds.
+  path: Packages/com.unity.2d.path/package.json
+  artifactKey: Guid(990785fe75c54584ab4201a3e20e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/package.json using Guid(990785fe75c54584ab4201a3e20e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5d99fbc4c8faa1672fe316120be7b3') in 0.007746 seconds 
+  Import took 0.011931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346237 seconds.
+  path: Packages/com.unity.2d.pixel-perfect/package.json
+  artifactKey: Guid(b1c570008ebc15d4183516ca5722a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.pixel-perfect/package.json using Guid(b1c570008ebc15d4183516ca5722a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00989447aebaa7f8a44a908d1cabf462') in 0.014771 seconds 
+  Import took 0.019129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340768 seconds.
+  path: Packages/com.unity.2d.psdimporter/package.json
+  artifactKey: Guid(2f948ecb81c850949a2725b1ba265844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/package.json using Guid(2f948ecb81c850949a2725b1ba265844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e35de09a832baf3b93f3ceeec5ce3b9') in 0.007510 seconds 
+  Import took 0.011634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.350498 seconds.
+  path: Packages/com.unity.2d.sprite/package.json
+  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff87128bdf6981a9843158b29f26b2df') in 0.008134 seconds 
+  Import took 0.012682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.532419 seconds.
+  path: Assets/castle.unity
+  artifactKey: Guid(65bd665c5b6334b0ca3489ff7ce15f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/castle.unity using Guid(65bd665c5b6334b0ca3489ff7ce15f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f707df55f9cd3cfe398b366c79802bef') in 0.005219 seconds 
+  Import took 0.008983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.244563 seconds.
+  path: Assets/2D Pixel Item Pack
+  artifactKey: Guid(582298f9b03a947e8a925c052618bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack using Guid(582298f9b03a947e8a925c052618bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22befcc25f937feb6f983ad58984ba45') in 0.004705 seconds 
+  Import took 0.008799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.680744 seconds.
+  path: Assets/RF Castle
+  artifactKey: Guid(345211b6c1efd40989b7a27395db9ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle using Guid(345211b6c1efd40989b7a27395db9ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56985e87c30f4b5b26e3438889884b10') in 0.004598 seconds 
+  Import took 0.021427 seconds .
 

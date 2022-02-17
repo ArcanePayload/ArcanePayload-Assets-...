@@ -8,26 +8,26 @@ public class FightBack : MonoBehaviour
     GameObject player;
     bool playerInTerritory;
 
-    public GameObject enemy;
-    BasicEnemy basicenemy;
+    public GameObject thePlayer;
+    BasicEnemy1 basicenemy;
 
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        basicenemy = enemy.GetComponent<BasicEnemy>();
+        basicenemy = GetComponent<BasicEnemy1>();
         playerInTerritory = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (playerInTerritory = true)
+        if (playerInTerritory == true)
         {
-            basicenemy.MoveToPlayer();
+            basicenemy.MoveToPlayer(player.transform);
         }
 
-        if (playerInTerritory = false)
+        if (playerInTerritory == false)
         {
             basicenemy.Rest();
         }
@@ -35,57 +35,20 @@ public class FightBack : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == player)
+        if (other.gameObject.CompareTag("Player"))
         {
             playerInTerritory = true;
+            player = other.gameObject;
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject == player)
+        if (other.gameObject.CompareTag("Player"))
         {
             playerInTerritory = false;
+            player = null;
         }
     }
 }
 
-public class BasicEnemy : MonoBehaviour
-{
-    public Transform target;
-    public float speed = 3f;
-    public float attack1Range = 1f;
-    public int attack1Damage = 1;
-    public float timeBetweenAttacks;
-
-
-    // Use this for initialization
-    void Start()
-    {
-        Rest();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void MoveToPlayer()
-    {
-        //rotate to look at player
-        transform.LookAt(target.position);
-        transform.Rotate(new Vector3(0, -90, 0), Space.Self);
-
-        //move towards player
-        if (Vector3.Distance(transform.position, target.position) > attack1Range)
-        {
-            transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
-        }
-    }
-
-    public void Rest()
-    {
-
-    }
-}
